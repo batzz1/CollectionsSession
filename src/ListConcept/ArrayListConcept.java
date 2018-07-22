@@ -6,6 +6,9 @@ import java.util.Iterator;
 public class ArrayListConcept {
 
     public static void main(String [] args){
+        /*
+            Create a Raw ArrayList  --> <arraylist> which holds data
+         */
         ArrayList arrayList = new ArrayList();
 
         arrayList.add(1);
@@ -31,6 +34,7 @@ public class ArrayListConcept {
         }
 
         //Non Generic vs Generic
+        //Create a Generic ArrayList <ar>
         ArrayList<Integer> ar = new ArrayList<Integer>();
         ar.add(100);
         ar.add(12);
@@ -41,6 +45,7 @@ public class ArrayListConcept {
         Employee employee2 = new Employee("Test" , 28, "Admin");
 
         //Create ArrayList
+        // arraylist1  holds type <Employee>
         ArrayList<Employee> arrayList1 = new ArrayList<Employee>();
         arrayList1.add(employee);
         arrayList1.add(employee1);
